@@ -47,8 +47,13 @@ function updateConfetti() {
 
 function startCelebration() {
   document.getElementById("surprise").classList.remove("hidden");
+  document.getElementById("gallery").classList.remove("hidden");
   createConfetti();
   setInterval(drawConfetti, 20);
+  // 🎵 Background music
+  const music = document.getElementById("birthdayMusic");
+  music.volume = 0.6; // adjust volume (0.1 to 1)
+  music.play();
 }
 
 window.onresize = () => {
