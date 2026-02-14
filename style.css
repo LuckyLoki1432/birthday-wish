@@ -102,7 +102,7 @@ button:hover {
 .slider {
   display: flex;
   gap: 20px;
-  animation: scrollLeft 15s linear infinite;
+  animation: scrollLeft 6s linear infinite;
 }
 
 .slider img {
@@ -171,4 +171,5 @@ button:hover {
     transform: translateX(-50%);
   }
 }
+
 
